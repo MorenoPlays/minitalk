@@ -40,7 +40,7 @@ void	sinal(int oct)
 	i++;
 	if (i == 8)
 	{
-		write(1, &j, 3);
+		write(1, &j, 1);
 		i = 0;
 	}
 }
